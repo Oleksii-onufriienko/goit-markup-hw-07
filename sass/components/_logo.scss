@@ -9,6 +9,12 @@
     font-family: Raleway, sans-serif;
   }
   
-  .logo-first {
+.logo-first {
     color: var(--select-text-color);
+  }
+
+.footer .logo {
+    margin-bottom: 20px;
+  
+    color: var(--second-color-logo-footer);
   }
