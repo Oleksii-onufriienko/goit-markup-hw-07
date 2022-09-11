@@ -8,6 +8,38 @@
     align-items: center;
     justify-content: space-between;
   }
+  .social__title {
+  
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--addr-color-city);
+  }
+
+  .social__list--between{
+    margin-left: 0px;
+   }
+
+   .social__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    box-shadow: none;
+    justify-content: center;
+    align-items: center;
+    fill: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background: var(--select-text-color);
+    }
+  } 
 }
 
 .addr {
@@ -111,5 +143,4 @@
     height: 24px;
     fill: var(--addr-color-city);
   }
-
 }
